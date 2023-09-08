@@ -1,0 +1,91 @@
+:root{
+--link-color: #212121;
+--heading-font-family: 'Roboto' , sans-serif ;
+--heading-font-family: 'Raleway' , sans-serif;
+}
+.global-header  {
+    background-color:#FFFFFF;
+}
+.global-header .main-navigation a:link,
+.global-header .main-navigation a:visited {
+    color: var(--link-color)
+}
+.global-header .main-navigation a:hover {
+    color: #2196F3;
+}
+h1 {
+    font-family: var(--heading-font-family);
+    font-weight: 900;
+    color:#FFFFFF;
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 700px;
+    height: 50px;
+}
+h2,
+h3{
+    
+    font-family: var(--heading-font-family);
+    font-weight: 700;
+}
+h4,
+h5 {
+    width: 400px;
+    height: 20px;
+    margin-top: 20px;
+    margin-left: 700px;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+}
+.sectionone{
+    background-color:#2F303A ;
+}
+.button{
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+ul{
+    list-style-type: none;
+}
+h2{
+    width: 200px;
+    height: 50px;
+    margin-top: 150px;
+    margin-left: 700px;
+}
+.global-header a{
+    width: 145px;
+    height: 31px;
+    margin-top: 24px;
+    margin-left: 20px;
+}
+
+footer{
+    background-color: #2F303A;
+}
+address{
+    color: #FFFFFF ;
+}
+.info{
+    color:#757575;
+}
+.all{
+    background-color: #2196F3;
+    color:#FFFFFF;
+}
+.logo{
+    text-decoration: none;
+  font-style: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 218%;
+}
+.logo-first{
+    color:#2196F3;
+}
+.logo-second{
+    color:#000000;
+}
+.logo-third{
+    color:#FFFFFF;
+}
