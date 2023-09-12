@@ -1,7 +1,7 @@
 :root{
 --link-color: #212121;
 --heading-font-family: 'Roboto' , sans-serif ;
---heading-font-family: 'Raleway' , sans-serif;
+--font-family: 'Raleway' , sans-serif;
 --highlight-color:#2196F3;
 }
 .global-header  {
@@ -20,19 +20,45 @@
 a:hover, nav {
     text-decoration:  none;
     font-size: 18px;
+    width: 60px;
+    height: 42px;
+    top:32px;
+    left:453px;
+    font:var(--heading-font-family) ;
+    font-weight: 500;
+    size:14px;
+    
+
     }
 h1 {
     font-family: var(--heading-font-family);
     font-weight: 900;
     color:#FFFFFF;
     margin-top: 20px;
-    margin-left: 700px;
-    width: 700px;
-    height: 50px;
+    margin-left: 696px;
+    width: 696px;
+    height: 120px;
+    top:280px;
+    left:452px;
     font-style: normal;
+    size:44px;
+    line-height: 60px;
 
 }
-h2,
+h2{
+    width: 200px;
+    height: 42px;
+    top:969px;
+    left:701px;
+    margin-top: 150px;
+    margin-left: 700px;
+    font:'Roboto';
+    font-weight: 700;
+   size:86px;
+   line-height: 42px;
+   font-style: normal;
+}
+
 h3{
     
     font-family: var(--heading-font-family);
@@ -41,6 +67,8 @@ h3{
     height: 16px;
     top: 774px;
     left:215px;
+    size:14px;
+    line-height: 16px;
     font-style: normal;
 
 }
@@ -74,6 +102,7 @@ h5{
 
 }
 p{
+    color:#757575;
     width: 270px;
     height: 75px;
     top:800px;
@@ -113,15 +142,15 @@ p{
     left: 700px;
     border-radius: 4px;
 }
+.button-request:hover{
+    color:#FFFFFF;
+    background-color: #2196F3;
+}
+
 ul{
     list-style-type: none;
 }
-h2{
-    width: 200px;
-    height: 50px;
-    margin-top: 150px;
-    margin-left: 700px;
-}
+
 .global-header a{
     width: 145px;
     height: 31px;
@@ -147,16 +176,24 @@ address{
     color:#757575;
     text-decoration:  none;
     font: var(--heading-font-family);
-    font-weight: 400;
+    font-weight: 500;
     size:14px;
     line-height: 16px;
+    width: 113px;
+    height: 16px;
+    top:32px;
+    left:1272px;
 }
 .logo{
     text-decoration: none;
-  font-style: "Raleway";
+  font-style:var(--font-family);
   font-weight: 700;
   font-size: 26px;
   line-height: 218%;
+  width: 145px;
+  height: 31px;
+  top:24px;
+  left:215px;
 }
 .logo-first{
     color:#2196F3;
@@ -179,15 +216,8 @@ address{
     border-radius: 4px;
 
 }
-.buttons:hover{
+.buttons:hover,
+.buttons:focus{
     color:#FFFFFF;
     background-color: #2196F3;
-}
-.button{
-    color:#FFFFFF;
-    background-color: #2196F3;
-    height: 38px;
-    top:174px;
-    left:614px;
-    border-radius: 4px;
 }
