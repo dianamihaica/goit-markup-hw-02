@@ -37,7 +37,7 @@
 .logo-second {
   color: #000;}
 .global-header .main-navigation a:link,
-.global-header .main-navigation a:visited {
+/* .global-header .main-navigation a:visited { */
   color: var(--link-color);
 }
 .global-header .main-navigation a:hover {
